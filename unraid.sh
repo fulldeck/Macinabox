@@ -225,7 +225,7 @@ fi
     echo "Uptodate clover image was put in $IMAGE"
     echo "."
 	echo "."
-    echo "Compatible OVMF files vere put in $IMAGE/ovmf"
+    echo "Compatible OVMF files were put in $IMAGE/ovmf"
 	echo "."
 	echo "."
 	if [ "$SKIPXML" = "yes" ] ; then
