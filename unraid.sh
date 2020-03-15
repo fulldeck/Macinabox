@@ -242,6 +242,13 @@ fi
 else
 	echo "."
 	echo "."
+	echo "Making a backup of the xml becuase sometimes I forget to copy the cutomer feilds"
+	echo "Copy to /mnt/user/appdata/MacinaBox/MacinaboxCatalina.xml.backup"
+	
+	cp /mnt/user/appdata/MacinaBox/MacinaboxCatalina.xml /mnt/user/appdata/MacinaBox/MacinaboxCatalina.xml
+	
+	echo "."
+	echo "."
     echo "Now you must stop and start the array. The vm will be visible in the Unraid VM manager"
 	
 	fi
